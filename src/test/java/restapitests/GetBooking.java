@@ -20,7 +20,7 @@ public class GetBooking {
     @Test
     public void getFirstNameAboutBooking() {
 
-        Integer Bookingid = 3368;
+        Integer Bookingid = 1;
 
 
         ClientInformationModel clientInformation = step("Отправка запроса на получение информации о бронировании",

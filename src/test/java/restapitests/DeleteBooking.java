@@ -16,7 +16,7 @@ public class DeleteBooking {
     @Test
     public void deleteBookingId() {
 
-        Integer Bookingid = 1769;
+        Integer Bookingid = 5752;
 
 
         step("Удаление бронирование по id и проверка статусу 201", () ->
