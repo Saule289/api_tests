@@ -18,7 +18,7 @@ ___
 <img width="6%" title="Java" src="images/logo/Java.svg">
 <img width="6%" title="Telegram" src="images/logo/Rest-Assured.svg">
 <img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
-<img width="6%" title="Allure Report" src="images/logo/AllureTO">
+<img width="6%" title="Allure Report" src="images/logo/AllureTO.svg">
 <img width="6%" title="Gradle" src="images/logo/Gradle.svg">
 <img width="6%" title="JUnit5" src="images/logo/JUnit5.svg">
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
@@ -27,7 +27,7 @@ ___
 </p>
 
 Автотесты написаны на <code>Java</code> с использованием <code>JUnit 5</code> и <code>Gradle</code>.
-Для APII-тестов использован фреймворк [Rest-assured](https://rest-assured.io/).
+Для API-тестов использован фреймворк [Rest-assured](https://rest-assured.io/).
 Запуск тестов можно осуществлять локально или удаленно.
 Также реализована сборка в <code>Jenkins</code> с формированием Allure-отчета и отправкой уведомления с результатами в <code>Telegram</code> после завершения прогона.
 
