@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936060e7-855a-4235-9a47-ee1ed0275fe0" name="Changes" comment="added README.md">
-      <change beforePath="$PROJECT_DIR$/notifications/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/AllureTO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Rest-Assured.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allureReport.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/Selenide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/Selenoid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/allureReportMain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/allureReportTests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/jenkinsBuild.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/screenshots/jenkinsBuild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restapitests/DeleteBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restapitests/DeleteBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/zhankulova.s/IdeaProjects/api_tests"
+    "last_opened_file_path": "C:/Users/zhankulova.s/IdeaProjects/api_tests/images/logo"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -86,7 +96,11 @@
       <recent name="restapitests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhankulova.s\IdeaProjects\api_tests\images\logo" />
       <recent name="C:\Users\zhankulova.s\IdeaProjects\api_tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhankulova.s\IdeaProjects\api_tests\images\screenshots" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="models" />
@@ -283,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681568246857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added README.md">
+      <created>1681568711278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681568711278</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
