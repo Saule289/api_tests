@@ -1,4 +1,4 @@
-# **Проект по автоматизации тестирования API страницы https://restful-booker.herokuapp.com/
+# Проект по автоматизации тестирования API страницы https://restful-booker.herokuapp.com/
 **
 
 ___

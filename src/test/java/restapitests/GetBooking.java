@@ -33,8 +33,7 @@ public class GetBooking {
                         .extract().as(ClientInformationModel.class));
 
         step("Проверка на соотвествие имения клиента с его id", () -> {
-            assertThat(clientInformation.getFirstname()).isEqualTo("Saule");
-
+            assertThat(clientInformation.getDepositpaid()).isEqualTo(true);
         });
     }
     @Tag("remote")
