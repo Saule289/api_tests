@@ -51,7 +51,7 @@ public class CreateBooking {
         });
     }
 
-    @DisplayName("Бронирование без дополнительной опцией")
+    @DisplayName("Бронирование без дополнительной опции")
     @Test
     public void createBookingWithoutAdditionalNeeds() {
         BookingDatesModel bookingDatesModel = new BookingDatesModel();
@@ -76,13 +76,13 @@ public class CreateBooking {
                         .spec(responseSpec200)
                         .extract().as(ClientInformationModel.class));
 
-        step("Проверка, чтов ответе нет дополнительных опций ", () -> {
+        step("Проверка, что в ответе нет дополнительной опции ", () -> {
             assertThat(clientInformation.getAdditionalneeds()).isNull();
         });
     }
 
 
-    @DisplayName("Неуспешное бронирование без имени и фамилии калиента")
+    @DisplayName("Неуспешное бронирование без имени и фамилии клиента")
     @Test
     public void createBookingWithoutSendingNames() {
         BookingDatesModel bookingDatesModel = new BookingDatesModel();

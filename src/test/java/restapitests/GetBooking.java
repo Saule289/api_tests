@@ -20,20 +20,20 @@ public class GetBooking {
     @Test
     public void getFirstNameAboutBooking() {
 
-        Integer Bookingid = 9009;
+        Integer Bookingid = 1;
 
 
         ClientInformationModel clientInformation = step("Отправка запроса на получение информации о бронировании",
                 () -> given()
                         .spec(requestSpec)
                         .when()
-                        .get("/booking/" + Bookingid)
+                        .get("booking/" + Bookingid)
                         .then()
                         .spec(responseSpec200)
                         .extract().as(ClientInformationModel.class));
 
         step("Проверка на соотвествие имения клиента с его id", () -> {
-            assertThat(clientInformation.getFirstname()).isEqualTo("Saule");
+            assertThat(clientInformation.getFirstname()).isEqualTo("Jim");
 
         });
     }

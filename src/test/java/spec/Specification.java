@@ -16,8 +16,10 @@ public class Specification {
     public static RequestSpecification requestSpec = with()
             .filter(withCustomTemplates())
             .log().uri()
+            .log().headers()
             .log().body()
             .contentType(JSON)
+            .header("Authorization", "Basic YWRtaW46cGFzc3dvcmQxMjM=")
             .baseUri("https://restful-booker.herokuapp.com");
 
 
@@ -33,10 +35,10 @@ public class Specification {
             .expectStatusCode(200)
             .build();
 
-    public static ResponseSpecification responseSpec400 = new ResponseSpecBuilder()
+    public static ResponseSpecification responseSpec405 = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
-            .expectStatusCode(400)
+            .expectStatusCode(405)
             .build();
 
     public static ResponseSpecification responseSpec404 = new ResponseSpecBuilder()
