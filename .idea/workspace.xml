@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936060e7-855a-4235-9a47-ee1ed0275fe0" name="Changes" comment="added update and delete">
-      <change beforePath="$PROJECT_DIR$/src/test/java/restapitests/DeleteBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restapitests/DeleteBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gif/videoExample.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Allure_Report.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/GitHub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Gradle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Intelij_IDEA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/JUnit5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Jenkins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Selenide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Selenoid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/Telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/puls.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allureReportMain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allureReportTests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/jenkinsBuild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/notificationExample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +93,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/zhankulova.s/IdeaProjects/api_tests"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="restapitests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhankulova.s\IdeaProjects\api_tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="models" />
@@ -251,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681566984650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added update and delete">
+      <created>1681567210651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681567210651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
