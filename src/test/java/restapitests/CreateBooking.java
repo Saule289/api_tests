@@ -50,7 +50,7 @@ public class CreateBooking {
             assertThat(responseModel.getBookingid()).isNotNull();
         });
     }
-
+    @Tag("remote")
     @DisplayName("Бронирование без дополнительной опции")
     @Test
     public void createBookingWithoutAdditionalNeeds() {
@@ -81,7 +81,7 @@ public class CreateBooking {
         });
     }
 
-
+    @Tag("remote")
     @DisplayName("Неуспешное бронирование без имени и фамилии клиента")
     @Test
     public void createBookingWithoutSendingNames() {

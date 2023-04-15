@@ -16,7 +16,7 @@ public class DeleteBooking {
     @Test
     public void deleteBookingId() {
 
-        Integer Bookingid = 1473;
+        Integer Bookingid = 1769;
 
 
         step("Удаление бронирование по id и проверка статусу 201", () ->
@@ -30,7 +30,7 @@ public class DeleteBooking {
     }
 
     @Tag("remote")
-    @DisplayName("Удаление бронирования")
+    @DisplayName("Удаление несуществующего бронирования")
     @Test
     public void deleteUnexcitingBookingId() {
 

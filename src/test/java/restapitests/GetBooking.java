@@ -20,7 +20,7 @@ public class GetBooking {
     @Test
     public void getFirstNameAboutBooking() {
 
-        Integer Bookingid = 1;
+        Integer Bookingid = 1769;
 
 
         ClientInformationModel clientInformation = step("Отправка запроса на получение информации о бронировании",
@@ -33,11 +33,11 @@ public class GetBooking {
                         .extract().as(ClientInformationModel.class));
 
         step("Проверка на соотвествие имения клиента с его id", () -> {
-            assertThat(clientInformation.getFirstname()).isEqualTo("Jim");
+            assertThat(clientInformation.getFirstname()).isEqualTo("Saule");
 
         });
     }
-
+    @Tag("remote")
     @DisplayName("Проверка на несуществующее бронирование")
     @Test
     public void getErrorAboutBooing() {
@@ -53,7 +53,7 @@ public class GetBooking {
                 .then()
                 .spec(responseSpec404));
     }
-
+    @Tag("remote")
     @DisplayName("Получение полной информации о бронировании по id")
     @Test
     public void getFullInformationAboutBooing() {
